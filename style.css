@@ -262,11 +262,12 @@ div.port{
     width: 70%;
     height: auto;
     background-color: #D7D7D9;
-    color: #5F1B21;
+    color: #0a0900;
     align-items: center;
 }
 div.port>h1{
     font-family: 'Righteous', cursive;
+    padding-top: 20px;
     
 
 }
@@ -306,7 +307,7 @@ div.contato{
     height: 100vh;
 }
 span.destaque{
-    background-color: #5F1B21;
-    color: #D7D7D9;
+    background-color: #F1D302;
+    color:#D7D7D9;
 }
 
