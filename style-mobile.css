@@ -48,7 +48,19 @@ div.left{
     height: auto;
 }
 div.port>ul>li{
-    display: none;
+    display:none;
+    
+}
+ul#icones-sociais{
+    float: left;
+    font-size: 1.4rem;
+    color:black;
+    padding-left: 40px;
+
+}
+ul#icones-sociais>a>i{
+    font-size: 1.9rem;
+    text-decoration: none;
 }
 div.left>h1{
     margin: auto;
@@ -112,5 +124,8 @@ div.port>a.acesso-portifolios:hover{
 div.port>a>button{
     width: 150px;
     height: 50px;
+}
+div.port{
+    row-gap: 5vh;
 }
 }
