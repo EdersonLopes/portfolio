@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     
+    
  
 }
 body{
@@ -13,7 +14,7 @@ body{
 header{
     display: flex;
     width: 100%;
-    height: 17vh;
+    height: 12vh;
     background-color: #0A0D0C;
     justify-content: space-around;
     text-decoration: none;
@@ -39,7 +40,7 @@ li>a{
    
 }
 li>a:hover{
-    border-bottom: solid 1px#BF3641;
+    border-bottom: solid 1px #F1D302;
     text-shadow: 0px 0px 5px #d7d7d956;
     text-transform: uppercase;
     
@@ -71,12 +72,14 @@ div.inicio{
    display: flex;
    
 }
+
 div.left>h1{
     color:#F1D302;
-    font-size: 2.9rem;
+    font-size: 3.9rem;
     font-family: 'Montserrat', sans-serif;
     margin-left: 10%;
-    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
 }
 h2{
     font-size: 1.2rem;
@@ -97,11 +100,12 @@ div.left>button{
     background-color: #F1D302;
     color: #0a0900;
     border-radius: 5px;
-    box-shadow: inset 0px 0px 5px black;
+    border: none;
+   
 }
 div.left>button:hover{
-    width: 16vw;
-    height: 56px;
+    transform: scale(1.3);
+    
     background-color: #F1D302;
     color: #0a0900;
 
@@ -122,8 +126,7 @@ div.contain{
     flex-wrap: wrap;
 }
 div.bloco{
-    background-image: linear-gradient(to bottom
-    ,#FFFFFF,#FBEFF0,#F3CED1,#EBADB2);
+    
     width:30%;
     height: 50vh;
     border: 1px solid #0a0900;
@@ -134,6 +137,7 @@ div.bloco{
     border-bottom-left-radius: 70px;
     border-top-right-radius: 70px;
     box-shadow: inset 4px 4px 4px #989AA6;
+    padding: 50px;
    
 
     
@@ -161,7 +165,6 @@ h3{
     font-family: 'Righteous', cursive;
     text-align: center;
     padding-bottom: 5px;
-    background-color: #5F1B21;
     color: #D7D7D9;
 
 
@@ -264,6 +267,7 @@ div.port{
     background-color: #D7D7D9;
     color: #0a0900;
     align-items: center;
+    padding: 20px;
 }
 div.port>h1{
     font-family: 'Righteous', cursive;
@@ -271,9 +275,12 @@ div.port>h1{
     
 
 }
-div.port>ul{
+div.port>ul>li{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
+    border: 1px solid #363F40;
+    padding: 10px 5px;
+    background-color: #989AA6;
 }
 div.port>p{
     font-family: 'Righteous', cursive;
@@ -287,7 +294,7 @@ div.port>a>button{
     font-size: 1.7rem;
     border: none;
     border-radius: 5px;
-    box-shadow: inset 0px 0px 5px black;
+    border: 1px solid #0A0D0C;
 
 }
 div.port>a>button:hover{
@@ -298,7 +305,8 @@ div.port>ul>li>a{
     
 }
 div.port>ul>li>a:hover{
-    border-bottom: 2px solid black;
+    border: none;
+    
 }
 div.contato{
     display: flex;
@@ -309,5 +317,9 @@ div.contato{
 span.destaque{
     background-color: #F1D302;
     color:#D7D7D9;
+}
+footer{
+    width: 100%;
+    height: 70px;
 }
 
