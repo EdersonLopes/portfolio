@@ -89,7 +89,7 @@ h2{
     margin-left: 10%;
     
 }
-div.left>button{
+div.left>a>button{
     width: 15vw;
     height: 55px;
     font-family: 'Righteous', cursive;
@@ -103,7 +103,7 @@ div.left>button{
     border: none;
    
 }
-div.left>button:hover{
+div.left>a>button:hover{
     transform: scale(1.3);
     
     background-color: #F1D302;

@@ -82,7 +82,7 @@ text-align: center;
 
 }
 div.apresentacao{
-    height: 40%;
+    height: 460px;
     padding-top: 35px;
 }
 
@@ -107,5 +107,9 @@ div.port>a.acesso-portifolios{
 div.port>a.acesso-portifolios:hover{
     background-color: black;
     color: #F1D302;
+}
+div.port>a>button{
+    width: 30vw;
+    height: 5vh;
 }
 }
