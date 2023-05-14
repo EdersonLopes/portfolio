@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;500;700&family=Montserrat:wght@100;300;400;500;800&family=Raleway:ital,wght@0,200;1,300&family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+ 
+}
+@media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos móveis pequenos */
+        body {
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+        }
+        
+        header {
+          font-size: 16px;
+          padding: 0;
+          justify-content: left;
+          padding-left: 30px;
+        }
+      
+      
+ul{
+    padding: 0px;
+    padding-inline-start: 10px;
+    padding-right: 45px;
+    column-gap: 30px;
+    padding-bottom: 31px;
+    margin: auto;
+
+}
+
+header>ul>a{
+    padding: 0px;
+    margin: auto;
+}
+main{
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}   
+
+div.left{
+    width: 100%;
+    row-gap: 20px;
+    height: auto;
+}
+div.port>ul>li{
+    display: none;
+}
+div.left>h1{
+    margin: auto;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    row-gap: 10px;
+}
+div.left>h2{
+    width: 70%;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+
+div.left>button{
+    width: 250px;
+    margin: auto;
+}
+div.right{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+
+div.titulo>h1{
+height: 73px;
+text-align: center;
+
+}
+div.apresentacao{
+    height: 35%;
+    padding-top: 35px;
+}
+}
