@@ -65,7 +65,7 @@ div.left>h2{
     padding-top: 10px;
 }
 
-div.left>button{
+div.left>a{
     width: 250px;
     margin: auto;
 }
@@ -109,7 +109,7 @@ div.port>a.acesso-portifolios:hover{
     color: #F1D302;
 }
 div.port>a>button{
-    width: 30vw;
-    height: 5vh;
+    width: 150px;
+    height: 50px;
 }
 }
